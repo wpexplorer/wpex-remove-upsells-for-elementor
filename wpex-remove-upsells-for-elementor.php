@@ -3,7 +3,7 @@
  * Plugin Name:       WPEX Remove Upsells for Elementor
  * Plugin URI:        https://github.com/wpexplorer/wpex-remove-upsells-for-elementor
  * Description:       Add-on plugin for Elementor to remove upsells.
- * Version:           1.0
+ * Version:           1.1
  * Requires at least: 6.6
  * Requires PHP:      8.0
  * Author:            WPExplorer
