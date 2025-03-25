@@ -3,7 +3,7 @@
  * Plugin Name:       WPEX Remove Upsells for Elementor
  * Plugin URI:        https://github.com/wpexplorer/wpex-remove-upsells-for-elementor
  * Description:       Add-on plugin for Elementor to remove upsells.
- * Version:           1.1
+ * Version:           1.1.2
  * Requires at least: 6.6
  * Requires PHP:      8.0
  * Author:            WPExplorer
@@ -141,7 +141,7 @@ if ( ! class_exists( 'WPEX_Remove_Upsells_For_Elementor' ) ) {
 		public function editor_css(): void {
 			wp_add_inline_style(
 				'elementor-editor',
-				'.e-notice-bar,.elementor-element-wrapper.elementor-element--promotion,#elementor-panel-category-pro-elements,#elementor-panel-category-theme-elements,#elementor-panel-category-theme-elements-single,#elementor-panel-category-woocommerce-elements,#elementor-panel-get-pro-elements,#elementor-panel-get-pro-elements-sticky,.elementor-control-dynamic-switcher,.elementor-control:has(.e-control-promotion__lock-wrapper){display:none!important;}.elementor-control-type-wysiwyg .tmce-active .switch-html{border-inline-end:0;}'
+				'.e-notice-bar,.elementor-element-wrapper.elementor-element--promotion,#elementor-panel-category-pro-elements,#elementor-panel-category-theme-elements,#elementor-panel-category-theme-elements-single,#elementor-panel-category-woocommerce-elements,#elementor-panel-get-pro-elements,#elementor-panel-get-pro-elements-sticky,.elementor-control-dynamic-switcher,.elementor-control:has(.e-control-promotion__lock-wrapper),#elementor-navigator__footer__promotion{display:none!important;}.elementor-control-type-wysiwyg .tmce-active .switch-html{border-inline-end:0;}'
 			);
 		}
 
