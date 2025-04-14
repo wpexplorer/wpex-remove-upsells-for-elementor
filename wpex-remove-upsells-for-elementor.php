@@ -141,7 +141,7 @@ if ( ! class_exists( 'WPEX_Remove_Upsells_For_Elementor' ) ) {
 		public function editor_css(): void {
 			wp_add_inline_style(
 				'elementor-editor',
-				'.e-notice-bar,.elementor-element-wrapper.elementor-element--promotion,#elementor-panel-category-pro-elements,#elementor-panel-category-theme-elements,#elementor-panel-category-theme-elements-single,#elementor-panel-category-woocommerce-elements,#elementor-panel-get-pro-elements,#elementor-panel-get-pro-elements-sticky,.elementor-control-dynamic-switcher,.elementor-control:has(.e-control-promotion__lock-wrapper),#elementor-navigator__footer__promotion,.elementor-panel-navigation-tab[data-tab=global]{display:none!important;}.elementor-control-type-wysiwyg .tmce-active .switch-html{border-inline-end:0;}.elementor-panel .elementor-panel-navigation .elementor-panel-navigation-tab[data-tab=categories].elementor-active{border-color:transparent;}'
+				'.e-notice-bar,.elementor-element-wrapper.elementor-element--promotion,#elementor-panel-category-pro-elements,#elementor-panel-category-theme-elements,#elementor-panel-category-theme-elements-single,#elementor-panel-category-woocommerce-elements,#elementor-panel-get-pro-elements,#elementor-panel-get-pro-elements-sticky,.elementor-control-dynamic-switcher,.elementor-control:has(.e-control-promotion__lock-wrapper),#elementor-navigator__footer__promotion,.elementor-panel-navigation-tab[data-tab=global],.elementor-control-section_custom_css_pro{display:none!important;}.elementor-control-type-wysiwyg .tmce-active .switch-html{border-inline-end:0;}.elementor-panel .elementor-panel-navigation .elementor-panel-navigation-tab[data-tab=categories].elementor-active{border-color:transparent;}'
 			);
 		}
 
